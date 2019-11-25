@@ -1,0 +1,16 @@
+# Prometheus monitor server port config.
+zookeeper:
+  host:
+    - "192.168.7.51"
+    - "192.168.7.52"
+    - "192.168.7.53"
+  port:
+    - 2181
+elasticsearch:
+  host:
+    - "192.168.7.41"
+    - "192.168.7.42"
+    - "192.168.7.43"
+  port:
+    - 9200
+    - 9300
