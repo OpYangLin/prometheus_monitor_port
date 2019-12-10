@@ -70,7 +70,7 @@ prometheus监控报警配置:
       expr: server_port_up{sertype=="zookeeper"} != 1
       for: 3m
       labels:
-        team: monitor-port
+        severity: "非常严重"
       annotations:
         summary: "{{$labels.host}}:{{$labels.port}} 端口未探测到"
         description: "请到服务器查看"
